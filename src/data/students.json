@@ -1,0 +1,47 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "firstName": "Romanss",
+        "lastName": "James",
+        "emailAddress": "romanjames@gmail.com",
+        "courses": [
+          "Data science",
+          "AWS",
+          "Django"
+        ]
+      },
+      {
+        "id": 2,
+        "firstName": "Nelson",
+        "lastName": "Remi",
+        "emailAddress": "nelsonremii@gmail.com",
+        "courses": [
+          "React",
+          "CSS"
+        ]
+      },
+      {
+        "id": 3,
+        "firstName": "Thomas",
+        "lastName": "Hanni",
+        "emailAddress": "tomashanni@gmail.com",
+        "courses": [
+          "Maths",
+          "Algorithm",
+          "Data structures"
+        ]
+      },
+      {
+        "id": 4,
+        "firstName": "James",
+        "lastName": "Ore",
+        "emailAddress": "jamesore@yahoo.com",
+        "courses": [
+          "Science",
+          "Quantum physics",
+          "Algorithm"
+        ]
+      }
+    ]
+  }
