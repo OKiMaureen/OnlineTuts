@@ -1,0 +1,32 @@
+<section >
+    <mat-card fxFlex.xs="80%" fxFlex= "50%">
+    <mat-card-title fxLayoutAlign="center center">Sign up Here</mat-card-title>
+    <form class="form" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px" (ngSubmit)="onSubmit(form)">
+      <mat-form-field>
+        <input matInput  placeholder="First Name" >
+        <mat-error >First name field must not be empty</mat-error>
+        <mat-error >First name field is invalid</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput  placeholder="last Name" >
+        <mat-error >Last name field must not be empty</mat-error>
+        <mat-error >Last name field is invalid</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput  placeholder="Email" >
+        <mat-error >Email field must not be empty</mat-error>
+        <mat-error >Email field is invalid</mat-error>
+      </mat-form-field>
+      <mat-form-field hintLabel="Password must not be less than 8 characters">
+        <input matInput placeholder="Password" >
+        <mat-error >Password field must not be empty</mat-error>
+        <mat-error >Password must be atleast 8 characters long</mat-error>
+      </mat-form-field>
+    </form>
+    <button  class="button" mat-raised-button type="submit" color="primary" >
+
+     Sign up
+     </button>
+    </mat-card>
+  </section>
+  
